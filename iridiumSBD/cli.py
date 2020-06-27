@@ -16,8 +16,8 @@ import logging.handlers
 
 import click
 
-from .iridiumSBD import dump
-from .directip.server import runserver
+from iridiumSBD import dump
+from directip.server import runserver
 
 
 @click.group()
